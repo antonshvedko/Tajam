@@ -698,16 +698,16 @@ a:hover {
   justify-content: space-between;
 }
 @media (min-width: 768px) {
+  .header .header-holder {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
   .header .flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-  }
-}
-@media (min-width: 768px) {
-  .header .header-holder {
-    display: block;
   }
 }
 @media (min-width: 768px) {
