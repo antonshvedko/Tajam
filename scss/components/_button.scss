@@ -27,3 +27,12 @@
 		}
 	}
 }
+
+.center {
+	display: flex;
+	justify-content: center;
+
+	@include media(">=tablet") {
+		justify-content: flex-start;
+	}
+}

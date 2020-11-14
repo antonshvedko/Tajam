@@ -479,6 +479,16 @@ a:hover {
   color: #fff;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .center {
+    justify-content: flex-start;
+  }
+}
+
 .wrapper {
   overflow: hidden;
   position: relative;
