@@ -89,14 +89,14 @@
     .menu-opener {
         &::after,
         &::before {
-            transform: rotate(-135deg);
+            transform: rotate(-45deg);
             top: 50%;
             left: 15%;
             right: 15%;
         }
 
         &::after {
-            transform: rotate(135deg);
+            transform: rotate(45deg);
         }
     }
 }
@@ -112,7 +112,7 @@
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.2s ease-in-out, visibility 0.5s ease-in-out, transform 0.5s ease-in-out,
-        background-color 0.3s ease-in-out, color 0.45s ease-in-out;
+    background-color 0.3s ease-in-out, color 0.45s ease-in-out;
     height: 90vh;
 
     @include media(">=tablet") {
@@ -138,7 +138,7 @@
         padding: 20px 10px;
         color: $white;
         text-transform: uppercase;
-        font-size: 18px;
+        font-size: 13px;
         font-weight: 900;
         transition: background-color 0.4s, color 0.4s;
 
@@ -153,7 +153,6 @@
         @include media(">=tablet") {
             padding: 14px;
             max-width: 200px;
-            font-size: 13px;
         
             &:hover {
                 background-color: transparent;
