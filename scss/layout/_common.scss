@@ -15,7 +15,6 @@
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	color: $white;
-	height: 88vh;
 	margin-bottom: 70px;
 
 	&::before {
@@ -31,14 +30,11 @@
 }
 
 .slider {
-	height: calc(88vh - 80px);
-	overflow: hidden;
 	position: static;
-	padding: 80px 0;
 
 	.slick-slide {
-	min-height: 450px;
-	padding: 50px 0;
+	min-height: 600px;
+	padding: 80px 0;
 	display: flex;
 	align-items: center;
 
@@ -85,7 +81,7 @@
 
 	@extend %listreset;
 	position: absolute;
-	bottom: 8%;
+	bottom: 70px;
 	right: 0;
 	display: block;
 	width: 100%;
